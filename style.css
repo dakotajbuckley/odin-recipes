@@ -1,8 +1,41 @@
 * {
     box-sizing: border-box;
+    /* outline: solid red; */
 }
 
 .container {
-    display: inline-block;
+    max-width: 700px;
     margin: 0 auto;
+    background-color: rgb(24, 23, 23);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+    margin: 15px 0;
+}
+
+a {
+    display: block;
+    background-color: white;
+    color: #000000;
+    text-decoration: none;
+    padding: 5px 0;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: lightgray;
 }
